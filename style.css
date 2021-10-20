@@ -1,0 +1,118 @@
+body {
+    font-size: 120%;
+    background-color: rgb(255, 225, 231);
+}
+
+h2 {
+    text-align: center;
+    /*width: 30%;*/
+    /*margin: 0 auto;*/
+}
+
+#form {
+    display: block;
+    /*display: none;*/
+}
+
+._form {
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgb(169, 255, 158);
+    border-radius: 10px;
+}
+
+.homepage {
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: rgb(169, 255, 158);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.inputGr h3 {
+    text-align: center;
+}
+
+.inputGr label {
+    display: block;
+    text-align: left;
+    /*margin: 3px;*/
+    padding: 3px;
+}
+
+.inputGr label input {
+    height: 30px;
+    width: 98%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    /*width: 30px;*/
+    /*margin: 0 auto;*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*display: inline-block;*/
+}
+
+.one {
+    display: block;
+}
+
+.two {
+    display: inline-block;
+}
+
+.btn {
+    width: 150px;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.error, .success {
+    /*width: 100%;*/
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #A94442;
+    color: black;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.errors {
+    padding-bottom: 20px;
+}
+
+.already, .success {
+    text-align: center;
+}
+
+.regBut {
+    outline: none;
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid black;
+    background: rgb(169, 255, 158);
+    text-align: center;
+    border-radius: 5px;
+}
